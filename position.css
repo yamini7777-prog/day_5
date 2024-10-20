@@ -1,0 +1,40 @@
+.head{flex:1 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(191, 250, 146);
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+.home{flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+input[type="text"]{flex: 1;
+    width: 500px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+}
+.parent{display: flex;
+justify-content: space-evenly;
+position: absolute;
+top: 250px;
+left: 100px;
+}
+.box{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    position: relative;
+    left: 100px;
+}
